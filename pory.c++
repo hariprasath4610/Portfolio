@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="port.c++">
+  <link rel="stylesheet" href="pory.c++">
 </head>
 <body>
   <header>
