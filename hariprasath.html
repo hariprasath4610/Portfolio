@@ -8,39 +8,33 @@ DOCTYPE html>
             margin: 0;
             padding: 0;
             background-color: #84a6e9;
-/* change bg color of body */
         }
 
         header {
-            background-color: #941919;
-/* change the background of the header*/
+            background-color: #941919
             color: #fff;
-/* change text color of the header */
             text-align: center;
             padding: 2rem 0;
-            position: relative; /* Add this */
+            position: relative; 
         }
 
         .header-content h1 {
             font-size: 2.5rem;
         }
-
-        /* Add styles for the round profile picture */
         .profile-picture {
-            width: 100px; /* Adjust the size as needed */
+            width: 100px; 
             height: 100px;
-            border-radius: 75%; /* Create a circular shape */
-            object-fit: cover; /* To ensure the image fills the circular area */
-            position: absolute; /* Add this */
-            top: 75px; /* Adjust top position as needed */
-            left: 75px; /* Adjust left position as needed */
+            border-radius: 75%; 
+            object-fit: cover; 
+            position: absolute; 
+            top: 75px; 
+            left: 75px; 
         }
 
         nav {
-            background-color: #333; /* change navigation bar bg color*/
+            background-color: #333; 
             color: #fff;
-/* change nav bar font color */
-            text-align: center;
+text-align: center;
         }
 
         nav ul {
@@ -60,7 +54,6 @@ DOCTYPE html>
 
         .section-content {
             background-color: #fff;
-/* change the bg section color */
             padding: 2rem;
             margin: 1rem;
             border-radius: 20px;
@@ -70,9 +63,7 @@ DOCTYPE html>
 
         .download-button {
             background-color: #333;
-/* download button bg color */
             color: #fff;
-/* dowload button font color */
             padding: 0.5rem 1rem;
             text-decoration: none;
             border-radius: 20px;
@@ -83,16 +74,13 @@ DOCTYPE html>
 
         .download-button:hover {
             background-color: #555;
-/* download button color while being pressed */
         }
 
         footer {
             text-align: center;
             padding: 1rem 0;
             background-color: #333;
-/* change the bg color of footer */
             color: #fff;
-/* change the font color of footer */
         }
 
         ul {
@@ -104,7 +92,6 @@ DOCTYPE html>
 <body>
     <header>
         <div class="header-content">
-            <!-- Add your profile picture here -->
             <img src="passport photo.jpg" alt="Your Profile Picture" class="profile-picture">
             <h1>Hari prasath</h1>
             <p>Am Information technology</p>
@@ -182,7 +169,6 @@ DOCTYPE html>
             <h2>Resume</h2>
             <a href="file.pdf" target="_blank" class="download-button">Download CV</a>
         </center>
-/* download a picture of resume and give the location in href="location" */
         </div>
         
     </section>
@@ -192,7 +178,6 @@ DOCTYPE html>
     </footer>
 
     <script>
-        // Smooth scrolling to section when clicking on navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
